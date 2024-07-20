@@ -98,4 +98,3 @@ if (!url) {
 runAxeOnSingleUrl(url).catch(err => {
   console.error('Error running axe:', err);
 });
-
